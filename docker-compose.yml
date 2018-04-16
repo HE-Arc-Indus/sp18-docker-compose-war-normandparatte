@@ -1,0 +1,6 @@
+compose:
+    image: tomcat
+    ports:
+       - "8080:8080"
+    volumes:
+    - ./sample.war:/usr/local/tomcat/webapps/user-registration-application-0.0.1-SNAPSHOT.war
